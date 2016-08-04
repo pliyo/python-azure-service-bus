@@ -6,7 +6,7 @@ accessKey = 'G6Iaa12aaB1aaHcZ4ghTzJKxLp1nFxf2hs1ZqYCSB5Y=' # Your key: ex: G6Iaa
 
 bus_service = ServiceBusService(
     service_namespace=namespaceName,
-    shared_access_key_name=accessKey,
+    shared_access_key_name=accessName,
     shared_access_key_value=accessKey)
 
 topicName = 'test';
